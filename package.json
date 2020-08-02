@@ -12,6 +12,7 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
+    "ethers": "^5.0.7",
     "sirv-cli": "^1.0.1"
   },
   "scripts": {
