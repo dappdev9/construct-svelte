@@ -1,6 +1,6 @@
 import { ethers } from "ethers";
 
-module.exports = (req, res) => {
+exports.new = (req, res) => {
 
     const network = "ropsten";
     const provider = ethers.getDefaultProvider(network, {
